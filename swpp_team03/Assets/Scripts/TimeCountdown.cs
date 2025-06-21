@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.IO;
 
 public class TimeCountdown : MonoBehaviour
 {
@@ -12,9 +13,8 @@ public class TimeCountdown : MonoBehaviour
     private float _timeRemaining;
     private bool _isRunning = false;
     private float timeSpent = 0f;
-
     private StatusBar statusBar;
-
+    public GameObject GameManager;
 
     void Start()
     {
@@ -101,12 +101,69 @@ public class TimeCountdown : MonoBehaviour
         UpdateUI();
     }
 
-    public void SetTimeUsed()
+    public bool SetTimeUsed()
     {
         int mUsed = Mathf.FloorToInt(timeSpent / 60f);
         int sUsed = Mathf.FloorToInt(timeSpent % 60f);
         int msUsed = Mathf.FloorToInt((timeSpent * 1000f) % 1000f);
 
         timeUsedText.text = $"{mUsed:00}:{sUsed:00}.{msUsed:000}";
+        return SaveTime();
+    }
+
+    float GetRouteTime(RouteTimeData data, string routeName)
+    {
+        return routeName switch
+        {
+            "route1" => data.route1,
+            "route2" => data.route2,
+            "route3" => data.route3,
+            "route4" => data.route4,
+            "route5" => data.route5,
+            "route6" => data.route6,
+            _ => -1
+        };
+    }
+
+    void SetRouteTime(RouteTimeData data, string routeName, float time)
+    {
+        switch (routeName)
+        {
+            case "route1": data.route1 = time; break;
+            case "route2": data.route2 = time; break;
+            case "route3": data.route3 = time; break;
+            case "route4": data.route4 = time; break;
+            case "route5": data.route5 = time; break;
+            case "route6": data.route6 = time; break;
+        }
+    }
+
+    public bool SaveTime()
+    {
+        string path = Path.Combine(Application.persistentDataPath, "times.json");
+        RouteTimeData data;
+        if (File.Exists(path))
+        {
+            string json = File.ReadAllText(path);
+            data = JsonUtility.FromJson<RouteTimeData>(json);
+        }
+        else
+        {
+            data = new RouteTimeData();
+        }
+
+        string routeName = GameManager.GetComponent<RouteManageInPlaying>().routeName;
+        float existingTime = GetRouteTime(data, routeName);
+
+        Debug.Log($"{timeSpent}, {existingTime}");
+        if (existingTime < 0 || timeSpent < existingTime)
+        {
+            SetRouteTime(data, routeName, timeSpent);
+            string json = JsonUtility.ToJson(data, true);
+            File.WriteAllText(path, json);
+            Debug.Log($"{routeName} 기록 갱신");
+            return true;
+        }
+        return false;
     }
 }

@@ -148,6 +148,7 @@
     <Compile Include="Assets\Scripts\TerrainAutoNeighbor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\SimpleHoverGrow.cs" />
+    <Compile Include="Assets\Scripts\RouteTimeData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
