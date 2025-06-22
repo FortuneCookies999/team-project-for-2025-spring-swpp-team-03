@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 2751446174882199768}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -1194.04, y: 63.19, z: 649.2846}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 80, y: 80, z: 80}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -115,9 +115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6679fe0be843e02429bc80c36703d567, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 5
-  speed: 3
-  figureEightRadius: 3
+  detectionRadius: 50
+  speed: 12
+  figureEightRadius: 15
   useFigureEight: 1
 --- !u!54 &7740800135110875995
 Rigidbody:

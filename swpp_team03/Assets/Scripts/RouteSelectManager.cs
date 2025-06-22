@@ -7,8 +7,6 @@ using System.IO;
 public class RouteSelectManager : MonoBehaviour
 {
     public GameObject[] maps;                  
-    public string[] routeDescriptions;
-    public TextMeshProUGUI routeDescription;
     public TextMeshProUGUI recordText;
     public Button startButton;                 
 
@@ -19,17 +17,16 @@ public class RouteSelectManager : MonoBehaviour
         for (int i = 0; i < maps.Length; i++)
             maps[i].SetActive(i == index);
 
-        routeDescription.text = routeDescriptions[index];
         selectedRouteIndex = index;
 
         float time = LoadBestTime($"route{index+1}");
         if (time == -1)
         {
-            recordText.text = "Best Record : None";
+            recordText.text = "None";
         }
         else
         {
-            recordText.text = $"Best Record : {time}";
+            recordText.text = $"{time}";
         }
 
         startButton.gameObject.SetActive(true);

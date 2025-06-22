@@ -5,10 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Light
   - Enemy
   - Destructible
-  - Light
-  - Camp
   layers:
   - Default
   - TransparentFX
@@ -16,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - MinimapOnly
+  - 
   - 
   - 
   - 
