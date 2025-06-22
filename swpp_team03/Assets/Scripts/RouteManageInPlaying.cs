@@ -7,15 +7,18 @@ public class RouteManageInPlaying : MonoBehaviour
 {
     // Start is called before the first frame update
     private GameObject routeManager;
-    private int routeInt;
+    public int routeInt;
     private int leftCount;
     public Transform[] lightTransforms;
+    public int[] routes;
     public GameObject lightObject;
     public TextMeshProUGUI leftBaseText;
 	private bool isGameCleared = false;
     public GameObject gameClear;
+    public TextMeshProUGUI gameClearText;
     public GameObject timeCountDown;
     private TimeCountdown timeCountdownScript;
+    public string routeName;
 
     void Start()
     {
@@ -23,8 +26,10 @@ public class RouteManageInPlaying : MonoBehaviour
         if (GameObject.Find("RouteManager_1"))
         {
             routeManager = GameObject.Find("RouteManager_1");
-            routeInt = routeManager.GetComponent<RouteManager>().route;
-
+            int routeIndex = routeManager.GetComponent<RouteManager>().route;
+            routeInt = routes[routeIndex];
+            routeName = "route" + (routeIndex + 1);
+            Debug.Log(routeName);
             Debug.Log(routeInt);
         }
         else
@@ -52,9 +57,16 @@ public class RouteManageInPlaying : MonoBehaviour
         timeCountdownScript.AddTimeUsed();
         if (leftCount == 1)
         {
-            timeCountdownScript.SetTimeUsed();
             Debug.Log("Game Clear!");
             gameClear.SetActive(true);
+            if (timeCountdownScript.SetTimeUsed())
+            {
+                gameClearText.text = "Very Good! Best Driver!";
+            }
+            else
+            {
+                gameClearText.text = "Good Job, Marco!";
+            }
             isGameCleared = true;
             Time.timeScale = 0f;
         }

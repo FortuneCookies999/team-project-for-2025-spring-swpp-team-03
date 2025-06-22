@@ -2243,8 +2243,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 776c0a529df634f548e06d9705fcbb7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 12000
-  maxSpeed: 20
+  moveForce: 8000
+  maxSpeed: 16
   rotationSpeed: 60
   uprightStability: 4
   groundCheckDistance: 2

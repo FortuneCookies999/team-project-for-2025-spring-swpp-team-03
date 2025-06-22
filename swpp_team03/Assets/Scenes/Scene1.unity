@@ -197,10 +197,13 @@ MonoBehaviour:
   - {fileID: 386788264}
   - {fileID: 723299058}
   - {fileID: 695226932}
+  routes: 200000002b000000fc020000da03000003010000703e0000
   lightObject: {fileID: 1227067641}
   leftBaseText: {fileID: 842716139}
   gameClear: {fileID: 1582599202}
+  gameClearText: {fileID: 1012233541}
   timeCountDown: {fileID: 1996721289}
+  routeName: 
 --- !u!1 &37540632
 GameObject:
   m_ObjectHideFlags: 0
@@ -13222,6 +13225,7 @@ MonoBehaviour:
   startSeconds: 60
   timeText: {fileID: 247451457}
   timeUsedText: {fileID: 336858140}
+  GameManager: {fileID: 21994838}
 --- !u!4 &1996721291
 Transform:
   m_ObjectHideFlags: 0
@@ -14179,11 +14183,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14249,11 +14257,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14319,11 +14331,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14389,11 +14405,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14459,11 +14479,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14529,11 +14553,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14599,11 +14627,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14669,11 +14701,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14739,11 +14775,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14809,11 +14849,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14879,11 +14923,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -14949,11 +14997,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15019,11 +15071,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15089,11 +15145,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15159,11 +15219,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15229,11 +15293,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15299,7 +15367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -15307,7 +15375,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15373,7 +15445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -15381,7 +15453,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15447,11 +15523,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15517,11 +15597,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15587,11 +15671,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15657,11 +15745,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 17
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15727,7 +15819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -15735,11 +15827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: figureEightRadius
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15805,11 +15897,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15875,11 +15971,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -15945,11 +16045,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16015,11 +16119,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16085,11 +16193,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16155,11 +16267,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16225,11 +16341,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16295,15 +16415,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: figureEightRadius
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16369,11 +16489,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16439,11 +16563,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16509,15 +16637,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: figureEightRadius
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16583,11 +16711,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16653,7 +16785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 17
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -16661,7 +16793,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16727,11 +16863,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16797,11 +16937,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16867,11 +17011,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -16937,11 +17085,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17007,11 +17159,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17077,11 +17233,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17147,7 +17307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -17155,7 +17315,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17221,7 +17385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -17229,7 +17393,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17295,7 +17463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -17303,7 +17471,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17369,11 +17541,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17439,11 +17615,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17509,11 +17689,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17579,11 +17763,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17649,11 +17837,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17719,7 +17911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -17727,7 +17919,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17793,11 +17989,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17863,11 +18063,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -17933,11 +18137,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18003,11 +18211,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18073,11 +18285,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18143,11 +18359,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18213,7 +18433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -18221,11 +18441,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: figureEightRadius
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18291,11 +18511,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18361,7 +18585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -18369,7 +18593,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18435,11 +18663,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18505,11 +18737,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18575,11 +18811,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18645,11 +18885,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 17
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18715,11 +18959,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18915,11 +19163,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -18985,7 +19237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -18993,7 +19245,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19059,11 +19315,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19129,11 +19389,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 17
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19199,11 +19463,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19269,11 +19537,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19339,7 +19611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -19347,7 +19619,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19413,11 +19689,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19483,11 +19763,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19553,11 +19837,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19623,11 +19911,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19693,15 +19985,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: figureEightRadius
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19767,11 +20059,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 17
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19837,15 +20133,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: figureEightRadius
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19911,11 +20207,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -19981,11 +20281,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20051,11 +20355,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20121,7 +20429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -20129,7 +20437,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20195,11 +20507,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20265,7 +20581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -20273,7 +20589,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20339,15 +20659,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: figureEightRadius
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20413,11 +20733,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20483,7 +20807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -20491,7 +20815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20557,7 +20885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -20565,7 +20893,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20631,11 +20963,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 17
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20701,11 +21037,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20771,7 +21111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -20779,7 +21119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20845,11 +21189,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20915,11 +21263,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 45
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -20985,7 +21337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: useFigureEight
@@ -20993,7 +21345,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -21059,11 +21415,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -21129,11 +21489,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -21199,11 +21563,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
@@ -22819,11 +23187,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: detectionRadius
-      value: 30
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120251155528337128, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
+      propertyPath: figureEightRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3270960349238895202, guid: e3ad13db2c2580342bb853081843fec9, type: 3}
       propertyPath: m_RootOrder
