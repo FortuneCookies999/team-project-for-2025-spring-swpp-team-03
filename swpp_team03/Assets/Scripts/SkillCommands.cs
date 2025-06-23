@@ -29,6 +29,8 @@ public class DragonSkillCommand : ISkillCommand
     
     public bool CanExecute()
     {
+        Debug.Log(player);
+        Debug.Log(player.GetComponent<AreaDestroy>());
         return player != null && player.GetComponent<AreaDestroy>() != null;
     }
     
@@ -67,6 +69,8 @@ public class TigerSkillCommand : ISkillCommand
     
     public bool CanExecute()
     {
+        Debug.Log(player);
+        Debug.Log(player.GetComponent<DashForward>());
         return player != null && player.GetComponent<DashForward>() != null;
     }
     
@@ -105,6 +109,8 @@ public class PhoenixSkillCommand : ISkillCommand
     
     public bool CanExecute()
     {
+        Debug.Log(player);
+        Debug.Log(player.GetComponent<HighJump>());
         return player != null && player.GetComponent<HighJump>() != null;
     }
     
@@ -143,6 +149,8 @@ public class TurtleSkillCommand : ISkillCommand
     
     public bool CanExecute()
     {
+        Debug.Log(player);
+        Debug.Log(player.GetComponent<HyunmuMode>());
         return player != null && player.GetComponent<HyunmuMode>() != null;
     }
     

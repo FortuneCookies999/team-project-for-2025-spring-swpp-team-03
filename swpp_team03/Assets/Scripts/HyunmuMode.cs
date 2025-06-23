@@ -29,7 +29,7 @@ public class HyunmuMode : MonoBehaviour
         nextAvailableTime = Time.time + cooldown;
 
         // 내구도 회복
-        statusBar.AddHealth(20f);
+        statusBar.AddHealth(100f);
         // 무적 상태 시작
         StartCoroutine(InvincibilityRoutine());
     }
